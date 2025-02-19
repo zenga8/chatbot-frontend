@@ -49,7 +49,7 @@ export default function Chatbot() {
 
         {showWarning && (
           <div className="bg-yellow-100 dark:bg-yellow-800 text-yellow-700 dark:text-yellow-300 p-3 rounded-lg mb-4 flex justify-between items-center">
-            ⚠️ This project is hosted on Render's free tier. Cold starts may cause a 30-50 second delay if the service is inactive.
+            ⚠️ This project is hosted on Render&apos;s free tier. Cold starts may cause a 30-50 second delay if the service is inactive.
             <button
               className="text-sm text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white"
               onClick={() => setShowWarning(false)}
